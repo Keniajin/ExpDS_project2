@@ -1,7 +1,8 @@
 ==================================================================
 ##Data Science Specialization: Exploratory Data Analysis Project 2
-==================================================================
+
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. I have used the doBy,ggplot2 and data.table packages for this analysis
+
 ===================================================================
 Introduction
 
@@ -9,12 +10,12 @@ Fine particulate matter (PM2.5) is an ambient air pollutant for which there is s
 
 For each year and for each type of PM source, the NEI records how many tons of PM2.5 were emitted from that source over the course of the entire year. The data thatused for this assignment are for 1999, 2002, 2005, and 2008.
 Data
-
 The data for this assignment are available from the course web site as a single zip file:
-
-    Data for source was from [a link](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip)
+Data for source was from [a link](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip)
 
 ===================================================================
+Variables
+
 The following are key variables of interest  taken used:
 -fips: A five-digit number (represented as a string) indicating the U.S. county
 -SCC: The name of the source as indicated by a digit string (see source code classification table)
@@ -24,8 +25,8 @@ The following are key variables of interest  taken used:
 -year: The year of emissions recorded
 Source Classification Code Table (Source\\_Classification\\_Code.rds): This table provides a mapping from the SCC digit strings int he Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracit
 ====================================================================
-
 Files 
+
 plot\\*.png and plot\\*.r 1,2,3,4,5 and 6 shows the different graphs and files for creating the graphs respectively
 The graphs shows the following
 1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
