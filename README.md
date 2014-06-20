@@ -4,7 +4,8 @@
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. I have used the doBy,ggplot2 and data.table packages for this analysis
 
 ===================================================================
-Introduction
+#Introduction
+
 
 Fine particulate matter (PM2.5) is an ambient air pollutant for which there is strong evidence that it is harmful to human health. In the United States, the Environmental Protection Agency (EPA) is tasked with setting national ambient air quality standards for fine PM and for tracking the emissions of this pollutant into the atmosphere. Approximatly every 3 years, the EPA releases its database on emissions of PM2.5. This database is known as the National Emissions Inventory (NEI). You can read more information about the NEI at the EPA National Emissions Inventory web site.
 
@@ -14,7 +15,8 @@ The data for this assignment are available from the course web site as a single 
 Data for source was from [a link](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip)
 
 ===================================================================
-Variables
+#Variables
+
 
 The following are key variables of interest  taken used:
 -fips: A five-digit number (represented as a string) indicating the U.S. county
@@ -26,7 +28,8 @@ The following are key variables of interest  taken used:
 Source Classification Code Table (Source\\_Classification\\_Code.rds): This table provides a mapping from the SCC digit strings int he Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracit
 
 ====================================================================
-Files 
+#Files 
+
 
 plot\\*.png and plot\\*.r 1,2,3,4,5 and 6 shows the different graphs and files for creating the graphs respectively
 The graphs shows the following
